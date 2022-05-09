@@ -14,7 +14,7 @@ const Coins = ({ coins }) => {
                         </p>
                     </Col>
                 </Row>
-                <Row className="mt-3 justify-content-center">
+                <Row className="mt-3">
                     {(coins || []).map((coin, index) => {
                         return (
                             <Col lg={3} md={6} key={index.toString()}>

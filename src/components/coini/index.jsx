@@ -34,13 +34,13 @@ const Crypto = () => {
             <Features features={features} />
 
             {/* integration */}
-            <Integration />
+            {/* <Integration /> */}
 
             {/* stats */}
             <Stats />
 
             {/* blog */}
-            <Blog />
+            {/* <Blog /> */}
 
             {/* footer */}
             <Footer1 />

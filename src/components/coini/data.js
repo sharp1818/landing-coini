@@ -1,46 +1,28 @@
 // images
-import btc from '../../assets/images/icons/coins/btc.svg';
-import eth from '../../assets/images/icons/coins/eth.svg';
+
+import busd from '../../assets/images/icons/coins/busd.svg';
+import dai from '../../assets/images/icons/coins/dai.svg';
+import usdc from '../../assets/images/icons/coins/usdc.svg';
 import usdt from '../../assets/images/icons/coins/usdt.svg';
-import link from '../../assets/images/icons/coins/link.svg';
-import bat from '../../assets/images/icons/coins/bat.svg';
-import dash from '../../assets/images/icons/coins/dash.svg';
-import bnb from '../../assets/images/icons/coins/bnb.svg';
-import xtz from '../../assets/images/icons/coins/xtz.svg';
+
 
 const coins = [
-    // {
-    //     icon: btc,
-    //     name: 'Bitcoin',
-    // },
-    // {
-    //     icon: eth,
-    //     name: 'Ethereum',
-    // },
+    {
+        icon: usdc,
+        name: 'USDC',
+    },
     {
         icon: usdt,
         name: 'Tether',
     },
-    // {
-    //     icon: link,
-    //     name: 'Chainlink',
-    // },
-    // {
-    //     icon: bat,
-    //     name: 'Basic Attention Token',
-    // },
-    // {
-    //     icon: dash,
-    //     name: 'Dash',
-    // },
-    // {
-    //     icon: bnb,
-    //     name: 'Binance Coin',
-    // },
-    // {
-    //     icon: xtz,
-    //     name: 'Tezos',
-    // },
+    {
+        icon: dai,
+        name: 'DAI',
+    },
+    {
+        icon: busd,
+        name: 'BUSD',
+    },
 ];
 
 const features = [
