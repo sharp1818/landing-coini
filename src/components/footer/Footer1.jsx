@@ -127,26 +127,26 @@ const Footer1 = () => {
                     <Col md={8}>
                         <p className="pb-0 mb-0 text-muted">
                             {new Date().getFullYear()} © Prompt. All rights reserved. Crafted by{' '}
-                            <a href="https://coderthemes.com/">Coderthemes</a>
+                            <a href="#">Coderthemes</a>
                         </p>
                     </Col>
                     <Col md={4} className="text-md-end">
                         <div className="align-items-end mt-md-0 mt-4">
                             <ul className="list-unstyled mb-0">
                                 <li className="d-inline-block me-4">
-                                    <div to="#">
+                                    <a href="#">
                                         <FeatherIcon icon="facebook" className="icon icon-xs" />
-                                    </div>
+                                    </a>
                                 </li>
                                 <li className="d-inline-block me-4">
-                                    <div to="#">
+                                    <a href="#">
                                         <FeatherIcon icon="twitter" className="icon icon-xs" />
-                                    </div>
+                                    </a>
                                 </li>
                                 <li className="d-inline-block">
-                                    <div to="#">
-                                        <FeatherIcon icon="divedin" className="icon icon-xs" />
-                                    </div>
+                                    <a href="#">
+                                        <FeatherIcon icon="linkedin" className="icon icon-xs" />
+                                    </a>
                                 </li>
                             </ul>
                         </div>

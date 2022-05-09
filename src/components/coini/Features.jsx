@@ -10,10 +10,10 @@ const Features = ({ features }) => {
                 <Row>
                     <Col className="text-center">
                         <Badge pill bg="" className="badge-soft-primary px-2 py-1">
-                            Why Choose Us
+                        ¿Por Qué elegirnos?
                         </Badge>
-                        <h1 className="display-5 fw-medium">The most trusted way to buy or sell crypto currency</h1>
-                        <p className="text-muted mx-auto">Here are the few reasons why you should choose us</p>
+                        <h1 className="display-5 fw-medium">Somos la forma más sencilla de empezar a recibir pagos en criptomonedas.</h1>
+                        <p className="text-muted mx-auto">Aquí algunas razones</p>
                     </Col>
                 </Row>
 
@@ -23,7 +23,7 @@ const Features = ({ features }) => {
                             <Col lg={6} key={index.toString()}>
                                 <Card className="shadow">
                                     <Card.Body>
-                                        <div className="d-flex text-align-start">
+                                        <div className="d-flex text-align-start ">
                                             <span className="align-self-center bg-soft-primary avatar avatar-sm rounded icon icon-with-bg icon-xs text-primary me-4 flex-shrink-0">
                                                 <FeatherIcon icon={feature.icon} className="icon-dual-primary" />
                                             </span>

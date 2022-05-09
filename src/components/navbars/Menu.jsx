@@ -8,11 +8,20 @@ const Menu = ({ navClass, buttonClass, showDownload }) => {
     return (
         <Nav as="ul" className={classNames('align-items-lg-center', navClass)}>
             <Nav.Item as="li">
-                <div to="/home" end className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}>
+                <div end className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}>
                     Home
                 </div>
             </Nav.Item>
-
+            <Nav.Item as="li">
+                <div end className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}>
+                    Home
+                </div>
+            </Nav.Item>
+            <Nav.Item as="li">
+                <div end className={classNames('nav-link', ({ ...isActive }) => isActive && 'active')}>
+                    Home
+                </div>
+            </Nav.Item>
             {showDownload && (
                 <>
                     <Nav.Item as="li">

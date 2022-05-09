@@ -8,20 +8,19 @@ const Coins = ({ coins }) => {
             <Container>
                 <Row className="justify-content-center">
                     <Col className="text-center">
-                        <h1 className="display-5 fw-semibold">Supported coins</h1>
+                        <h1 className="display-5 fw-semibold">Criptomonedas aceptadas</h1>
                         <p className="text-muted mx-auto">
-                            Fastest way to buy or sell <span className="text-dark fw-medium">popular</span> crypto
-                            coins.
+                        La manera más segura de recibir pagos en las criptomonedas estables más<span className="text-dark fw-medium"> populares.</span>
                         </p>
                     </Col>
                 </Row>
-                <Row className="mt-3">
+                <Row className="mt-3 justify-content-center">
                     {(coins || []).map((coin, index) => {
                         return (
                             <Col lg={3} md={6} key={index.toString()}>
                                 <div className="d-flex align-items-center py-lg-2 my-4">
                                     <img src={coin.icon} className="icon me-3" alt="" />
-                                    <div className="flex-grow-1">
+                                    <div className="flex-grow-1 ">
                                         <h4 className="my-0 fw-medium">{coin.name}</h4>
                                     </div>
                                 </div>
@@ -33,7 +32,7 @@ const Coins = ({ coins }) => {
                 <Row className="mt-4">
                     <Col lg={12} className="mt-4 mt-lg-2 text-center">
                         <div to="#" className="btn btn-primary">
-                            View complete list <FeatherIcon className="ms-2 icon icon-xs" icon="arrow-right" />
+                            ¿Quieres que soportemos otra cripto? <FeatherIcon className="ms-2 icon icon-xs" icon="arrow-right" />
                         </div>
                     </Col>
                 </Row>
